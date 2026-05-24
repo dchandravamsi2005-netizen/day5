@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>TechStore</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+
+<body>
+
+    <header>
+
+        <div class="logo">
+            TechStore
+        </div>
+
+        <nav>
+
+            <a href="#">Home</a>
+            <a href="#">Products</a>
+            <a href="#">Cart</a>
+
+        </nav>
+
+        <div class="header-icons">
+
+            <button id="themeBtn">
+                <i class="fa-solid fa-moon"></i>
+            </button>
+
+            <div class="cart-icon">
+                <i class="fa-solid fa-cart-shopping"></i>
+
+                <span id="cartCount">0</span>
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <div class="hero-content">
+
+            <h1>
+                Discover Modern Gadgets
+            </h1>
+
+            <p>
+                Premium electronics with modern technology.
+            </p>
+
+            <button>
+                Shop Now
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- SEARCH -->
+
+    <section class="controls">
+
+        <input
+            type="text"
+            id="searchInput"
+            placeholder="Search products">
+
+        <select id="categoryFilter">
+
+            <option value="all">
+                All Categories
+            </option>
+
+            <option value="Laptop">
+                Laptop
+            </option>
+
+            <option value="Phone">
+                Phone
+            </option>
+
+            <option value="Accessories">
+                Accessories
+            </option>
+
+        </select>
+
+    </section>
+
+    <!-- PRODUCTS -->
+
+    <section
+        class="products"
+        id="productContainer">
+
+    </section>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
